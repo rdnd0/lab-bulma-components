@@ -15,7 +15,8 @@ class App extends Component {
     <Form name="Name" type="text" placeholder="Alex Smith"/>
     <Form name="Email" type="email" placeholder="alexsmith@gmail.com"/>
     
-    <CoolButton>button1</CoolButton>
+    <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+    <CoolButton isSmall isSuccess>Button 2</CoolButton>
     
 
     </div>
